@@ -2,6 +2,7 @@ body{
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
+    background-color: #fffdf7;
 
 }
 
@@ -14,7 +15,7 @@ body{
 
 .navegador{
     background-color: #1A535C;
-
+    color: #fffdf7;
 
 }
 
@@ -27,5 +28,35 @@ header {
     margin-top: 3.12em;
     padding-top: 15em;
     padding-bottom: 14em;
+    color: #fffdf7;
 
+}
+
+header .btn {
+    background-color: #ffd6af;
+}
+
+.formulario, .trabajos{
+    background-color: #84BC9C;
+}
+
+.imagenesCarro {
+    width: 20em;
+    height: 14em;
+}
+
+.carousel-indicators {
+    top: 240px;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #373A3C;
+
+}
+
+.iconosExp{
+    color: #D65780;
 }
